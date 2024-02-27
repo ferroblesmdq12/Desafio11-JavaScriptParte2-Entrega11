@@ -1,0 +1,21 @@
+function calculateInterest(investment) {
+    // Implementa la fórmula para calcular el interés
+}
+
+function addInterestToInvestments(investments) {
+    return investments.map(investment => {
+        calculateInterest(investment);
+        return investment;
+    });
+}
+
+// Ejemplo de uso:
+const investments = [
+    { name: "Inversión 1", amount: 1000 },
+    { name: "Inversión 2", amount: 2000 },
+    { name: "Inversión 3", amount: 1500 }
+    // Agrega más inversiones según sea necesario
+];
+
+const investmentsWithInterest = addInterestToInvestments(investments);
+console.log(investmentsWithInterest);

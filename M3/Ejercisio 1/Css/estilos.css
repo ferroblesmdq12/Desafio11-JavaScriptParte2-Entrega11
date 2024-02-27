@@ -1,0 +1,19 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .custom-table thead th {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
